@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PlayStation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="title">PlayStationStore</h1>
+        <p class="description">Let's Make A New Generation</p>
+    </header>
+
+    <div class="wrap">
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="indexmenu.html">Menu</a>
+                </li>
+                <li>
+                    <a href="#">Voucher</a>
+                </li>
+                <li>
+                    <a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Log In</a>
+                </li>
+                <li>
+                    <a href="#">About Me</a>
+                </li>
+            </ul>
+        </nav>
+
+        <aside class="sidebar">
+            <div class="widget">
+                <h2>About:</h2>
+                <img src="img/PS.png" width="200" height="100">
+                <p>Owner: Sony Interactive Entertainment</p>
+                <p>Introduced: December 3, 1994; 25 years ago</p>
+                <p>Country: Minami-Aoyama, Minato, Tokyo, Japan</p>
+                <p>Markets: Worldwide</p>
+                <p>Website:
+                    <a href="https://www.playstation.com/en-us/"> www.playstation.com </a>
+                </p>
+                <p>Product type Video game console</p>
+            </div>
+            <div class="widget">
+                <center>
+                    <figure>
+                        <h2>Follow Me On:</h2>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/599px-Instagram_icon.png" width="50px" height="50px">
+                        <figcaption><a href="https://www.instagram.com/u.paramarta_yt/">Instagram</a></figcaption>
+                        <h2>Contact:</h2>
+                        <img src="data:image/png;base64,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"
+                            width="50px" height="50px">
+                        <figcaption><a href="ulzaparamarta@gmai.com">Gmail</a></figcaption>
+
+                    </figure>
+                </center>
+            </div>
+            <div class="widget">
+                <h2>Discount 50% In Octoer!</h2>
+                <img src="https://cdn.wccftech.com/wp-content/uploads/2013/08/grand_theft_auto_v_9-wallpaper-1920x1080.jpg" width="200" height="100" alt="">
+                <p>Discount 50% Voucher GTA 5</p>
+            </div>
+            <div class="widget">
+                <h2>Free Voucher Game</h2>
+                <img src="https://s.kaskus.id/r480x480/images/fjb/2018/06/01/free_ongkir___voucher_game_online_10209825_1527821765.JPG" width="200" height="100" alt="">
+                <p>Top Up With 20% Discount In:
+                    <a href="https://FlameZombie.com" target="blank"></a>FlameZombieStore</a>
+                </p>
+            </div>
+            <div class="widget">
+                <h2>Start Your Journey</h2>
+                <img src="http://allhdwallpapers.com/wp-content/uploads/2015/05/monster-hunter-7.jpg" width="200" height="100">
+                <p>Enjoy Your Playing Experience</p>
+            </div>
+            <div class="widget">
+                <h2>New Game In October</h2>
+                <img src="https://images4.alphacoders.com/937/thumb-350-937844.png" width="200" height="100">
+                <p>Let's Go Check What's A New Games!</p>
+            </div>
+            <div class="widget">
+                <h2>Boring To Play Solo??</h2>
+                <img src="https://wallpaperaccess.com/full/765566.jpg" width="200" height="100">
+                <p>Let's Find A Friends On Discord And Play Together :D </p>
+            </div>
+        </aside>
+
+        <div class="blog">
+            <div class="content">
+                <div class="post-info">
+                    Posted By <b>Ulza Paramarta</b>
+                </div>
+                <img src="https://cdn.player.one/sites/player.one/files/2019/05/02/tlou2-splash.jpg">
+                <h1> The Last Of Us Part 2</h1>
+                <hr>
+                <p>
+                    You can head here for our full, detailed look at The Last of Us Part 2, but we'll give you the Cliff Notes here: This is a brutal, profound video game experience that not only works in terms of its second-to-second combat, but also has plenty to say about
+                    the dark nature of revenge and the cyclical nature of impulsive violence. Early contender for 2020 game of the year. See Gamespot's The Last of Us Part 2 review.
+                </p>
+                <a href="https://www.playstation.com/en-us/games/the-last-of-us-part-ii-ps4/" class="continue-content">More →</a>
+            </div>
+            <div class="content">
+                <div class="post-info">
+                    Posted By <b>Ulza Paramarta</b>
+                </div>
+                <img src="https://cdn.wccftech.com/wp-content/uploads/2019/12/WCCFghostoftsushima7.jpg">
+                <h1> Ghost Of Tsushima</h1>
+                <hr>
+                <p>
+                    Need for Speed: ProStreet is a racing video game released in 2007 as the eleventh installment of the Need for Speed series and the sequel to Need for Speed: Carbon. ProStreet took a radical departure from the previous Need for Speed games, as instead
+                    of the illegal open-world street racing formula found in the previous games, ProStreet focuses on legal closed-track racing, with the developers saying "street racers are moving off the street and onto the track".
+                </p>
+                <a href="https://www.playstation.com/en-us/games/ghost-of-tsushima-ps4/" class="continue-content">More →</a>
+            </div>
+            <div class="content">
+                <div class="post-info">
+                    Posted By <b>Ulza Paramarta</b>
+                </div>
+                <img src="https://i.ytimg.com/vi/gSlB_oK6d5E/maxresdefault.jpg">
+                <h1>Horizon Zero Dawn</h1>
+                <hr>
+                <p>
+                    Horizon: Zero Dawn is like Video Games: The Greatest Hits. It has the sprawling mission structure of The Witcher 3, Metroid Prime-style scanning, Tomb Raider-esque bow and arrows and survival. And it has fricken' robot dinosaurs with fricken' laser beams.
+                    It also -- somehow -- weaves its ludicrous high concept into a story that not only works, but is actually incredibly compelling, affecting and features great writing and layered characters.
+                </p>
+                <a href="https://www.playstation.com/en-us/games/horizon-zero-dawn-ps4/" class="continue-content">More →</a>
+            </div>
+        </div>
+    </div>
+    <div id="id01" class="modal">
+        <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+            <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <button type="submit">Login</button>
+                <input type="checkbox" checked="checked"> Remember me
+            </div>
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+    <script>
+        var modal = document.getElementById('id01');
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    <footer>
+        <center>
+            <p>
+                [Privacy Policy] Your privacy is important to us. We have a legal duty to protect any information we collect from you and to prevent any unauthorised access to or use of that information. We do not pass your details to any third party unless you give
+                us permission to do so. Copyright 2020 - FlameZombie. All Right Reversed.
+            </p>
+            <p>
+                [Cookies] We use cookies on our website to help you to use functionality on the website. Cookies are pieces of data that can be automatically created on your computer or device when you visit a website or use an app. They are small text files that help
+                us to understand how the website or app is being used by our visitors. You may refuse the use of cookies on our websites by selecting the appropriate settings on your browser, however some minor functionality will be lost. We do not collect
+                any information about your use of the cookies.
+            </p>
+        </center>
+    </footer>
+
+</body>
+
+
+</html>

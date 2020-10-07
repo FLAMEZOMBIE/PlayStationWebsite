@@ -1,0 +1,208 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/417970.jpg);
+    background-position: fixed;
+    background-size: 100%;
+}
+
+li a button {
+    font-weight: 404;
+    font-size: 16px;
+    color: azure;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10% 0 10%;
+}
+
+.kontainer {
+    margin-bottom: 1px;
+    background-color: rgb(25, 0, 255);
+    width: 100%;
+    position: fixed;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    height: 60px;
+}
+
+.navigation {
+    list-style: none;
+    background-color: black;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 0 10px;
+    background-color: rgb(25, 0, 255);
+}
+
+.navigation li a {
+    transition: all 0.3s ease 0s;
+    background-color: rgb(25, 0, 255);
+    color: #afb3b2;
+    text-decoration: none;
+    padding: 2px;
+    font-size: 25px;
+}
+
+.navigation li a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+    font-size: 25px;
+}
+
+button {
+    padding: 6px 25px;
+    background-color: rgb(25, 0, 255);
+    border: white;
+    border-width: 2px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: rgb(25, 0, 255);
+    transition: all 0.3s ease 0s;
+}
+
+.wrappp {
+    padding-top: 70px;
+    background-color: #00000086;
+    background-size: 100%;
+    padding-bottom: 0;
+    opacity: 1;
+    height: 100%;
+}
+
+.wrappp .tekss {
+    padding-top: 100px;
+    text-align: left;
+    margin-left: 10%;
+    color: whitesmoke;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.493);
+    margin-right: 10%;
+    margin-top: 40px;
+}
+
+.wrappp .tekss h1 {
+    font-size: 80px;
+    font-family: 'Fondamento', cursive;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.wrappp .tekss hr {
+    size: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.wrappp .tekss h2 {
+    font-size: 40px;
+    font-family: 'Racing Sans One', cursive;
+    font-weight: lighter;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    text-align: center;
+    color: rgb(25, 0, 255);
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.card {
+    background-color: #020202d5;
+    height: 420px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.904);
+    color: white;
+    margin-bottom: 20px;
+    border: 1px solid rgb(25, 0, 255);
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1) translate(0, -5%);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px rgb(25, 0, 255);
+}
+
+.card__name {
+    margin-top: 15px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.card__image {
+    height: 160px;
+    width: 160px;
+    border-radius: 20px;
+    border: 1px solid #272133;
+    margin-top: 20px;
+}
+
+.cardPrice {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.btn {
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+    font-family: 'Fondamento', cursive;
+    text-align: center;
+    font-size: 20px;
+    padding: 0.75em 2em;
+    letter-spacing: 0.05rem;
+    margin: 1em;
+    margin-top: -5px;
+    width: 13rem;
+}
+
+.btn:focus {
+    outline: none;
+    background-color: #64faff;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+}

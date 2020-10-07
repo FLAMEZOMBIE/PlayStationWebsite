@@ -1,0 +1,362 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+body {
+    background-image: url(https://wallpaperaccess.com/full/417970.jpg);
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: rgb(25, 0, 255);
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 25%;
+    top: 0;
+    padding: 0%, 50%, 0%, 50%;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    padding-top: 80px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(25, 0, 255);
+    cursor: pointer;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+@media screen and (max-width: 100px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+hr {
+    border: 0;
+    background: #aaaaaa;
+    height: 1px;
+}
+
+header {
+    text-align: center;
+    font-size: large;
+    color: #ffffff;
+    background-color: rgb(25, 0, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header .judul {
+    font-size: 50pt;
+    background-color: black;
+}
+
+header .deskripsi {
+    font-size: 11pt;
+}
+
+.wrap {
+    width: 950px;
+    margin: 25px auto;
+}
+
+nav.menu ul {
+    overflow: hidden;
+    color: #fff;
+    list-style: none;
+    float: left;
+    padding: 0;
+    width: 650px;
+    margin: 0 0 0;
+    background: rgb(25, 0, 255);
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(65, 65, 65, 0.55);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(53, 52, 52, 0.55);
+    box-shadow: 1px 1px 1px 0px rgba(46, 46, 46, 0.55);
+}
+
+nav.menu ul li {
+    margin: 0;
+    float: left;
+}
+
+nav.menu ul a {
+    padding: 25px;
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+nav.menu ul a:hover {
+    text-decoration: underline;
+    background: rgb(44, 44, 44);
+}
+
+.sidebar {
+    float: right;
+    width: 275px;
+}
+
+.sidebar .widget {
+    padding: 25px;
+    margin: 0 0 25px;
+    background: #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.5s ease;
+}
+
+.sidebar .widget:hover {
+    border-bottom: 2px solid rgb(25, 0, 255);
+}
+
+.sidebar .widget h2 {
+    padding: 0;
+    margin: 0 0 15px;
+    color: rgb(25, 0, 255);
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.sidebar .widget p {
+    font-size: 14px;
+}
+
+.sidebar .widget p:last-child {
+    margin: 0;
+}
+
+.blog {
+    float: left;
+}
+
+.content {
+    width: 600px;
+    padding: 25px;
+    margin: 25px auto;
+    background: #fff;
+    border: 1px solid #dedede;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
+    box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
+}
+
+.content img {
+    min-width: 650px;
+    margin: 0 0 25px -25px;
+    max-width: 650px;
+}
+
+.content h1 {
+    padding: 0;
+    margin: 0 0 15px;
+    font-weight: normal;
+    color: #666;
+    font-family: Georgia;
+}
+
+.content p:last-child {
+    margin: 0;
+}
+
+.conteudo .continue-content {
+    color: #000;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.conteudo .continue-content:hover {
+    margin-left: 10px;
+}
+
+.post-info {
+    float: right;
+    font-size: 12px;
+    margin: -10px 0 15px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 960px) {
+    .header {
+        position: inherit;
+    }
+    .wrap {
+        width: 90%;
+        margin: 25px auto;
+    }
+    .sidebar {
+        width: 100%;
+        margin: 25px 0 0;
+        float: right;
+    }
+    .sidebar .widget {
+        padding: 5%;
+        padding-left: 1%;
+    }
+    .modal {
+        width: 100%;
+        height: 100%;
+        left: 1%;
+    }
+    nav.menu ul {
+        width: 100%;
+    }
+    nav.menu ul {
+        float: inherit;
+    }
+    nav.menu ul li {
+        float: inherit;
+        margin: 0;
+    }
+    nav.menu ul a {
+        padding: 15px;
+        font-size: 16px;
+        border-top: 1px solid #1abf9f;
+        border-bottom: 1px solid #16a085;
+    }
+    .blog {
+        width: 90%;
+    }
+    .content {
+        float: inherit;
+        margin: 0 auto 25px;
+        width: 101%;
+        border: 1px solid #dedede;
+        padding: 5%;
+        background: #fff;
+    }
+    .content img {
+        max-width: 110%;
+        margin: 0 0 25px -5%;
+        min-width: 110%;
+    }
+    .content .continue-content:hover {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    nav.menu ul a {
+        padding: 15px;
+        font-size: 14px;
+    }
+    .sidebar {
+        display: none
+    }
+    .post-info {
+        display: none;
+    }
+    .content {
+        margin: 25px auto;
+    }
+    .content img {
+        margin: -5% 0 25px -5%;
+    }
+}
+
+footer {
+    background-origin: padding-box;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    clear: both;
+    position: relative;
+    height: 70px;
+    margin-top: 100px;
+}
